@@ -1,0 +1,27 @@
+completion_text: |-
+  <p>asdasd</p>
+description: |-
+  asdasd
+next_flow_id: quiz19
+next_flow_title: asdsad
+pages:
+- content: |-
+    <p>asdasd</p>
+  id: intro
+  title: Inicio
+  type: Page
+- content: |-
+    <p>sdfsdf</p>
+  id: page42
+  title: asdasd
+  type: Page
+rules:
+  access:
+  - if_has_role:
+    - ta
+    - student
+    - instructor
+    permissions:
+    - view
+  grade_identifier: null
+title: asdasd
